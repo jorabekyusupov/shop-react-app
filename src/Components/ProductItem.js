@@ -10,7 +10,7 @@ export default function ProductItem(props){
                 <p>{description}</p>
             </div>
             <div className="card-action" >
-                <button className="btn" onClick={()=>addToCart({id, name, price})}>BUY</button>
+                <button className="btn light-blue"  onClick={()=>addToCart({id, name, price})}>BUY</button>
                 <span className="right">{price} $</span>
             </div>
         </div>
