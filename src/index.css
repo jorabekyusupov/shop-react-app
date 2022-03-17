@@ -132,6 +132,7 @@ body.colorlib-body {
     padding: 1rem;
 }
 .cart_list{
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -168,7 +169,20 @@ body.colorlib-body {
     color: #03a9f4;
 }
 
-
+.btnCustom{
+    padding: 0px 15px;
+    font-size: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.secondary-content{
+    display: flex;
+    align-items: center;
+}
+.btnCustom .material-icons{
+    font-size: 20px !important;
+}
 @keyframes modal-show {
     from{
         top: 70%;
